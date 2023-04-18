@@ -129,7 +129,7 @@ function seleccionarMascotaJugador(){
 }
 function seleccionarMascotaEnemigo()
 {    
-    let mascotaAleatoria = aleatorio( 1, 3 )
+    let mascotaAleatoria = aleatorio( 0, mokepones.length -1 )
     
     if ( mascotaAleatoria == 1 )
     {
